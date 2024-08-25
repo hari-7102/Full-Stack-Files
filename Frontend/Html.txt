@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration</title>
+    
+</head>
+
+<body>
+    <center>
+        <form >
+            <table>
+                <tr>
+                    <th>
+                        <label for="firstname" id="name">First Name:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="firstname" name="fname" maxlength="30"> (max 30 characters and A-Z)
+                        <br>
+                        <span class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="lastname">Last Name:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="lastname" name="lname" maxlength="30"> (max 30 characters a-z and A-Z)
+                        <br>
+                        <span class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="dob">Date Of Birth:</label>
+                    </th>
+                    <td>
+                        <select id="dob_day">
+                            <option value="-1">Day</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+    
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+    
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+                            <!-- Add other days here -->
+                        </select>
+                        <select id="dob_month">
+                            <option value="-1">Month</option>
+                            <option value="January">Jan</option>
+                            <option value="February">Feb</option>
+                            <option value="March">Mar</option>
+                            <option value="April">Apr</option>
+            <option value="May">May</option>
+            <option value="June">Jun</option>
+            <option value="July">Jul</option>
+            <option value="August">Aug</option>
+            <option value="September">Sep</option>
+            <option value="October">Oct</option>
+            <option value="November">Nov</option>
+            <option value="December">Dec</option>
+
+                            <!-- Add other months here -->
+                        </select>
+                        <select id="dob_year">
+                            <option value="-1">Year</option>
+                            <option value="2012">2012</option>
+                            <option value="2011">2011</option>
+                            <option value="2010">2010</option>
+                            <option value="2009">2009</option>
+            <option value="2008">2008</option>
+            <option value="2007">2007</option>
+            <option value="2006">2006</option>
+            <option value="2005">2005</option>
+            <option value="2004">2004</option>
+            <option value="2003">2003</option>
+            <option value="2002">2002</option>
+            <option value="2001">2001</option>
+            <option value="2000">2000</option>
+                            <!-- Add other years here -->
+                        </select>
+                        <br>
+                        <span id="dob_error" class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="gender">Gender:</label>
+                    </th>
+                    <td>
+                        Male <input type="radio" name="gender" value="male">
+                        Female <input type="radio" name="gender" value="female">
+                        <br>
+                        <span id="gender_error" class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="email">Email ID:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="email">
+                        <br>
+                        <span class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="number">Mobile Number:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="number" maxlength="10"> (10 digit number)
+                        <br>
+                        <span class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th><label for="address">Address:</label></th>
+                    <td><textarea id="address" rows="5" cols="30"></textarea>
+                        <br>
+                        <span class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="city">City:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="city" maxlength="30"> (max 30 characters a-z and A-Z)
+                        <br>
+                        <span class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="pin">Pin Code:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="pin" maxlength="6"> (6 digit number)
+                        <br>
+                        <span class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="state">State:</label>
+                    </th>
+                    <td>
+                        <input type="text" id="state" maxlength="30"> (max 30 characters a-z and A-Z)
+                        <br>
+                        <span class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="country">Country:</label>
+                    </th>
+                    <td>
+                        <select id="country">
+                            <option value="-1">Select</option>
+                            <option value="India">India</option>
+                            <option value="USA">USA</option>
+                            <option value="2">Africa</option>
+            
+            <option value="4">Russia</option>
+            <option value="5">China</option>
+            <option value="6">Pakistan</option>
+            <option value="7">london</option>
+            <option value="8">South Africa</option>
+            <option value="9">Australia</option>
+                        </select>
+                        <br>
+                        <span class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>
+                        <label for="course">Courses:</label>
+                    </th>
+                    <td>
+                        Python<input type="radio" name="course" value="BCA">
+                        Java <input type="radio" name="course" value="B.Com">
+                        PHP <input type="radio" name="course" value="B.Sc">
+                         <input type="radio" name="course" value="B.A">
+                        <br>
+                        <span id="course_error" class="error"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Submit</button>
+                        <button type="reset">Reset</button>
+                    </td>
+                </tr>
+            </table>
+        </form>
+    </center>
+</body>
+
+</html>
