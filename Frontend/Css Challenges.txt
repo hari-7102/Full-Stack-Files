@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      .topnav {
+    background-color:rgb(58, 58, 103);
+    overflow: hidden;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+.topnav-right {
+    float: right;
+  }
+.active{
+    text-size-adjust: 200px;
+}
+
+
+
+  .topnav-center input[type=text] {
+    float: right;
+    padding: 6px;
+    border-radius: 20px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+.bodypart{
+    text-align: center;
+    background-color: rgb(56, 164, 56);
+    overflow: hidden;
+    height: 250px;
+    color: white;
+
+}
+
+.part{
+    color: white;
+    color: antiquewhite;
+    background-color:rgb(58, 58, 103);
+    /* padding-left: 200px; */
+    /* padding-right:200px ; */
+    margin-left: 640px;
+    margin-right: 640px;
+
+    border-radius: 20px;
+
+}   
+
+.hari{
+    text-align:center ;
+}
+
+.sang{
+    color: gray;
+}
+
+
+
+.sarav{
+    background-color: rgb(169, 160, 160);
+    width: 350px;
+    height: 350px;
+    margin-left: 20px;
+}
+
+.latha{
+    text-align: left;
+    padding-left: 40px ;
+}
+
+.abi{
+    text-align: left;
+    padding-right: 900px;
+    padding-left:0%;
+}
+/* .laths3{ */
+    /* padding-left: 20px; */
+ /* color: rgb(26, 26, 119); */
+
+
+.laths5{
+    text-align: left;
+    padding-left: 30px;
+    color: rgb(26, 26, 119);
+}
+
+.abi4{
+    text-align: center;
+    padding-right: 630px;
+}
+
+.sarav2{
+    background-color:rgb(169, 160, 160);
+    width: 350px;
+    height:350px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.master{
+    float: left;
+    margin-left: 30px;
+}
+
+.sarav3{
+    background-color:rgb(169, 160, 160);
+    width: 350px;
+    height:350px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.hema1{
+    color: rgb(20, 20, 105);
+}
+
+.card{ 
+    float:left; 
+    gap:100px; 
+    max-width:300px; 
+    margin-right:50px; 
+    margin-left: 111px;
+    
+    padding:62px; 
+    transition:height 0.3X ease-in-out; 
+    margin-right:20px; 
+    
+   } 
+.card .image-holder{ 
+    width:300px; 
+    height:300px; 
+   }
+   .image-holder{ 
+    background-color:rgb(107, 94, 94); 
+   }
+
+.footer{
+    margin-left: 144px;
+}
+    </style>
+</head>
+<body>
+
+    <div class="topnav">
+        <a class="active" href="">LOGO</a>
+        <div class="topnav-center">
+          <a href="">Home</a>
+          <a href="">About</a>
+
+          
+          <a href="">Gallery</a>
+          
+         
+
+          <a href="">Contact</a>
+          <a href="">Others</a>
+
+          <input type="text" placeholder="Search..">
+
+          
+
+        </div>
+      </div>
+    <div class="bodypart">
+    <h1 text-size="150px">Dramatically Enage</h1>
+    <P>Objectvely innovate empowered manufactured products whereas parallel platforms</P>
+     <br>
+    <h2 class="part">Enage Now </h2>
+
+</div>
+
+<div class="hari">
+    <h2>Superior Collaboration Visualize Quality</h2>
+    <P class="sang">Proactively envisioned multimedia based expertise and cross-media growth strategies, Seamlessly visualize quality intellectual
+        capital without superior collaboration and idea-sharing</P>
+</div>
+
+<br>
+
+
+<div class="footer">
+  <div id="d1" class="card">
+    <div id="d2" class="image-holder"></div>
+    <div id="d3" class="card-content">
+    <h2>Efficiently Unleash</h2>
+    <p>Lorem ipsum dolor sit amet, consectetuer 
+    adipiscing elit, sed diam nonummy nibh 
+    euismod tincidunt ut laoreet dolore magna</p>
+    <a href="#">Read more</a>
+ </div>
+ </div>
+ <div id="d1" class="card">
+ <div id="d2" class="image-holder"></div>
+ <div id="d3" class="card-content">
+ <h2>Completely Synergize</h2>
+ <p>Lorem ipsum dolor sit amet, consectetuer 
+ adipiscing elit, sed diam nonummy nibh 
+ euismod tincidunt ut laoreet dolore magna</p>
+ <a href="#">Read more</a>
+ </div>
+ </div>
+ <div id="d1" class="card">
+ <div id="d2" class="image-holder"></div>
+ <div id="d3" class="card-content">
+ <h2>Dynamically Procrastinate</h2>
+ <p>Lorem ipsum dolor sit amet, consectetuer 
+ adipiscing elit, sed diam nonummy nibh 
+ euismod tincidunt ut laoreet dolore magna</p>
+ <a href="#">Read more</a>
+</div>
+</div>
+</div>
+
+
+   
+</div>
+</body>
+</html>
